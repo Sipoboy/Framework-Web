@@ -36,7 +36,17 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <div class="btn-group">
+        <div class="dropdown">
+            <button class="btn-getstarted dropdown-toggle" type="button" id="authDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Login | Register
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="authDropdown">
+                <li><a class="dropdown-item" href="/login">Login</a></li>
+                <li><a class="dropdown-item" href="/register">Register</a></li>
+            </ul>
+        </div>
+        </div>
 
     </div>
   </header>
